@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#rings" class="nav-link">Rings</a>
+        <a href="#necklaces" class="nav-link">Necklaces</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Sparkling Gems</h1>
+        <p><span class="home-span">Fine Jewelry</span><br>
+          A wide range of exquisite and unique pieces crafted with the finest materials and expert craftsmanship.<br><span class="sample">From sparkling diamonds to precious gemstones, our collection is designed to captivate and delight.</span>
+        </p>
+        <div class="button-container">
+          <a href="#" class="btn btn-primary">View More</a>
+          <a href="#" class="btn btn-secondary">Shop Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Our Blog</h2>
+      <div class="blog-posts"></div>
+      <button id="loadMoreBtn" class="btn">Load More</button>
+    </section>
+
+    <section id="rings">
+      <h2>Rings</h2>
+      <div class="ornament-container"></div>
+    </section>
+
+    <section id="necklaces">
+      <h2>Necklaces</h2>
+      <div class="ornament-container"></div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn submit-btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Jewelry Shop. Email: <a href="mailto:yashwanth@gmail.com">yashwanth@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
